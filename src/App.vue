@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import { aButton } from "zactestui";
+import { aButton } from "npm1";
 const click = (e: any) => {
   console.log(123, e);
 };
 </script>
 
 <template>
-  <a-button text="提交1111" @ClickMe="click"></a-button>
+  <a-button @ClickMe="click"></a-button>
 </template>
 
 <style>
